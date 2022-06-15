@@ -95,6 +95,13 @@
                             <constraint firstItem="dCp-uy-TJW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="oxo-5T-KSl"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="curveLabel" destination="f0u-dy-pBT" id="zSF-G7-QjM"/>
+                        <outlet property="delayLabel" destination="l5H-aY-P0M" id="7sk-sq-xOp"/>
+                        <outlet property="durationLabel" destination="b8e-ag-M3C" id="4gK-UJ-czr"/>
+                        <outlet property="forceLabel" destination="T6d-sX-nHF" id="1BN-QE-RP2"/>
+                        <outlet property="presetLabel" destination="mfH-Ec-1pO" id="Qjd-Ih-kyH"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
