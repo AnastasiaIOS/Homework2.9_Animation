@@ -5,7 +5,7 @@
 //  Created by Anastasia on 14.06.2022.
 //
 
-import Spring
+import Spring
 
 class ViewController: UIViewController {
     
@@ -24,6 +24,9 @@ class ViewController: UIViewController {
     }
 
     @IBAction func springAnimationButton(_ sender: SpringButton) {
+        
+        springAnimationView.animation = "wobble"
+        springAnimationView.animate()
     }
     
 }
