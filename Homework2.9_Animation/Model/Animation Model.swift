@@ -27,11 +27,11 @@ extension Animation {
         
         
         for _ in 1... {
-        let groupOfParametrs = Animation(preset: massiaveOfPresets.randomElement(),
-                                          curve: massiveOfCurves.randomElement(),
-                                          force: massiveOfForces.randomElement(),
-                                       duration: massiveOfDurations.randomElement(),
-                                          delay: massiveOfDelays.randomElement())
+        let groupOfParametrs = Animation(preset: massiaveOfPresets.randomElement() ?? "",
+                                          curve: massiveOfCurves.randomElement() ?? "",
+                                          force: massiveOfForces.randomElement() ?? 1,
+                                       duration: massiveOfDurations.randomElement() ?? 1,
+                                          delay: massiveOfDelays.randomElement() ?? 1)
             
             massiveOfParametrs.append(groupOfParametrs)
         }
