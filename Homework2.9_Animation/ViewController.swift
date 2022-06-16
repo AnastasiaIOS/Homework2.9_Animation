@@ -5,10 +5,11 @@
 //  Created by Anastasia on 14.06.2022.
 //
 
-import UIKit
+import Spring
 
 class ViewController: UIViewController {
     
+    @IBOutlet var springAnimationView: SpringView!
     
     @IBOutlet var presetLabel: UILabel!
     @IBOutlet var curveLabel: UILabel!
@@ -22,6 +23,8 @@ class ViewController: UIViewController {
        
     }
 
-
+    @IBAction func springAnimationButton(_ sender: SpringButton) {
+    }
+    
 }
 
