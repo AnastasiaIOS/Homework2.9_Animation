@@ -41,26 +41,4 @@ extension Animation {
     
 }
 
-/*extension Person {
-    static func getPerson() -> [Person] {
-        
-        var massiveOfPersons: [Person] = []
-        
-        let massiveOfNames = groupMassive.names.shuffled()
-        let massiveOfSurnames = groupMassive.surnames.shuffled()
-        let massiveOfPhones = groupMassive.phones.shuffled()
-        let massiveOfEmails = groupMassive.emails.shuffled()
-        
-        let numberOfPersons = min(massiveOfNames.count, massiveOfSurnames.count, massiveOfPhones.count, massiveOfEmails.count)
-        
-        for number in 1...numberOfPersons {
-            let person = Person(name: massiveOfNames[number - 1] ,
-                                surname: massiveOfSurnames[number - 1],
-                                phone: massiveOfPhones[number - 1],
-                                email: massiveOfEmails[number - 1])
-            
-            massiveOfPersons.append(person)
-        }
-        return massiveOfPersons
-    }
-}*/
+
