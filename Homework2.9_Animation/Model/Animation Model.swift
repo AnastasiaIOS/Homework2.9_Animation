@@ -30,8 +30,8 @@ extension Animation {
             let groupOfParametrs = Animation(preset: massiveOfPresets.randomElement() ?? "pop",
                                           curve: massiveOfCurves.randomElement() ?? "easeIn",
                                           force: massiveOfForces.randomElement() ?? 1,
-                                       duration: massiveOfDurations.randomElement() ?? 1,
-                                          delay: massiveOfDelays.randomElement() ?? 1)
+                                             duration: massiveOfDurations.randomElement() ?? 1.0,
+                                             delay: massiveOfDelays.randomElement() ?? 1.0)
             
             massiveOfParametrs.append(groupOfParametrs)
         }
