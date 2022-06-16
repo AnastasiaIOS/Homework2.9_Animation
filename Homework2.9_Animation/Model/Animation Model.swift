@@ -26,10 +26,10 @@ extension Animation {
         let massiveOfDelays = groupMassive.delays
         
         
-        for _ in 0... {
+        for _ in 0...5 {
             let groupOfParametrs = Animation(preset: massiveOfPresets.randomElement() ?? "pop",
                                           curve: massiveOfCurves.randomElement() ?? "easeIn",
-                                          force: massiveOfForces.randomElement() ?? 1,
+                                             force: massiveOfForces.randomElement() ?? 1.0,
                                              duration: massiveOfDurations.randomElement() ?? 1.0,
                                              delay: massiveOfDelays.randomElement() ?? 1.0)
             

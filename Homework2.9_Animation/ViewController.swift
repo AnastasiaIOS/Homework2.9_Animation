@@ -38,7 +38,7 @@ class ViewController: UIViewController {
         springAnimationView.force = lightAnimation.force
         springAnimationView.curve = lightAnimation.curve
         springAnimationView.duration = lightAnimation.delay
-            springAnimationView.animate()
+        springAnimationView.animate()
         }
         
     }
