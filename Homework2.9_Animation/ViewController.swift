@@ -17,6 +17,9 @@ class ViewController: UIViewController {
     @IBOutlet var durationLabel: UILabel!
     @IBOutlet var delayLabel: UILabel!
     
+    private var animation = Animation.getParametrsOfAnimation()
+    private var index = 0
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +28,18 @@ class ViewController: UIViewController {
 
     @IBAction func springAnimationButton(_ sender: SpringButton) {
         
-        springAnimationView.animation = "wobble"
-        springAnimationView.animate()
+        
+        let lightAnimation = animation[index]
+        
+      
+        springAnimationView.animation = lightAnimation.preset
+        springAnimationView.delay = lightAnimation.delay
+        springAnimationView.force = lightAnimation.force
+        springAnimationView.curve = lightAnimation.curve
+        springAnimationView.duration = lightAnimation.delay
+            springAnimationView.animate()
+        
+        
     }
     
 }
