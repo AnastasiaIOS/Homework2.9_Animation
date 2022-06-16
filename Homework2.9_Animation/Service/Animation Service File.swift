@@ -8,11 +8,11 @@
 class AnimationService {
     
     
-    let preset = ["shake", "pop", "morph", "squeeze", "wobble", "slideLeft", "slideDown", "fadeInLeft", "zoomIn", "flash"]
-    let curve = ["spring", "linear", "easeIn", "easeOut", "easeInOut"]
-    let force = [0, 0.5, 0.7, 1, 1.25, 1.5]
-    let duration = [0, 0.5, 0.7, 1, 1.25, 1.5]
-    let delay = [0.3, 0.5, 0.7, 1]
+    let presets = ["shake", "pop", "morph", "squeeze", "wobble", "slideLeft", "slideDown", "fadeInLeft", "zoomIn", "flash"]
+    let curves = ["spring", "linear", "easeIn", "easeOut", "easeInOut"]
+    let forces = [0, 0.5, 0.7, 1, 1.25, 1.5]
+    let durations = [0, 0.5, 0.7, 1, 1.25, 1.5]
+    let delays = [0.3, 0.5, 0.7, 1]
 
 }
 

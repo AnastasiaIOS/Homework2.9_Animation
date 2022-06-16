@@ -28,6 +28,7 @@ class ViewController: UIViewController {
 
     @IBAction func springAnimationButton(_ sender: SpringButton) {
         
+        for index in 0... {
         
         let lightAnimation = animation[index]
         
@@ -38,7 +39,7 @@ class ViewController: UIViewController {
         springAnimationView.curve = lightAnimation.curve
         springAnimationView.duration = lightAnimation.delay
             springAnimationView.animate()
-        
+        }
         
     }
     

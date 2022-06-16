@@ -19,16 +19,16 @@ extension Animation {
         
         var massiveOfParametrs: [Animation] = []
         
-        let massiaveOfPresets = groupMassive.preset
-        let massiveOfCurves = groupMassive.curve
-        let massiveOfForces = groupMassive.force
-        let massiveOfDurations = groupMassive.duration
-        let massiveOfDelays = groupMassive.delay
+        let massiveOfPresets = groupMassive.presets
+        let massiveOfCurves = groupMassive.curves
+        let massiveOfForces = groupMassive.forces
+        let massiveOfDurations = groupMassive.durations
+        let massiveOfDelays = groupMassive.delays
         
         
-        for _ in 1... {
-        let groupOfParametrs = Animation(preset: massiaveOfPresets.randomElement() ?? "",
-                                          curve: massiveOfCurves.randomElement() ?? "",
+        for _ in 0... {
+            let groupOfParametrs = Animation(preset: massiveOfPresets.randomElement() ?? "pop",
+                                          curve: massiveOfCurves.randomElement() ?? "easeIn",
                                           force: massiveOfForces.randomElement() ?? 1,
                                        duration: massiveOfDurations.randomElement() ?? 1,
                                           delay: massiveOfDelays.randomElement() ?? 1)
