@@ -65,16 +65,24 @@
 		5D995E89285928C900DE3A6D /* Homework2.9_Animation */ = {
 			isa = PBXGroup;
 			children = (
+				5D995EA0285BBCD800DE3A6D /* Model */,
 				5D995E8A285928C900DE3A6D /* AppDelegate.swift */,
 				5D995E8C285928C900DE3A6D /* SceneDelegate.swift */,
 				5D995E8E285928C900DE3A6D /* ViewController.swift */,
-				5D995E9E285BB59A00DE3A6D /* Animation Model.swift */,
 				5D995E90285928C900DE3A6D /* Main.storyboard */,
 				5D995E93285928CA00DE3A6D /* Assets.xcassets */,
 				5D995E95285928CA00DE3A6D /* LaunchScreen.storyboard */,
 				5D995E98285928CA00DE3A6D /* Info.plist */,
 			);
 			path = Homework2.9_Animation;
+			sourceTree = "<group>";
+		};
+		5D995EA0285BBCD800DE3A6D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5D995E9E285BB59A00DE3A6D /* Animation Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		DB4F82346406D66191D681F4 /* Pods */ = {
