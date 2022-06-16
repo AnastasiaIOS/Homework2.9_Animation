@@ -12,7 +12,7 @@ class AnimationService {
     let curve = ["spring", "linear", "easeIn", "easeOut", "easeInOut"]
     let force = [0, 0.5, 0.7, 1, 1.25, 1.5]
     let duration = [0, 0.5, 0.7, 1, 1.25, 1.5]
-    let delay = ["qqq@bk.ru", "eew@bk.ru", "omo@bk.ru", "qqq@bk.ru", "wwww@bk.ru", "pppp@bk.ru"]
+    let delay = [0.3, 0.5, 0.7, 1]
 
 }
 
