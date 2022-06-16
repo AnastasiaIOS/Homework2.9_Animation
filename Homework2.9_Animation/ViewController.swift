@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     @IBOutlet var delayLabel: UILabel!
     
     private var animation = Animation.getParametrsOfAnimation()
-    var index = 0
+    var index = Animation.getParametrsOfAnimation().count
     
     
     override func viewDidLoad() {
@@ -30,11 +30,10 @@ class ViewController: UIViewController {
 
     @IBAction func springAnimationButton(_ sender: SpringButton) {
         
-        index = animation.count
         
         
-        for _ in 0...index-1{
-      
+        for _ in 0...index {
+            
         springAnimationView.animation = animation[index].preset
         springAnimationView.delay = animation[index].delay
         springAnimationView.force = animation[index].force
@@ -42,6 +41,7 @@ class ViewController: UIViewController {
         springAnimationView.duration = animation[index].delay
         springAnimationView.animate()
         }
+        
         }
     }
     
