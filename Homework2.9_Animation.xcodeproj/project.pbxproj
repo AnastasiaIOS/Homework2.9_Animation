@@ -13,6 +13,7 @@
 		5D995E92285928C900DE3A6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D995E90285928C900DE3A6D /* Main.storyboard */; };
 		5D995E94285928CA00DE3A6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D995E93285928CA00DE3A6D /* Assets.xcassets */; };
 		5D995E97285928CA00DE3A6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D995E95285928CA00DE3A6D /* LaunchScreen.storyboard */; };
+		5D995E9F285BB59A00DE3A6D /* Animation Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D995E9E285BB59A00DE3A6D /* Animation Model.swift */; };
 		7EA2DA9326051E0748CECF78 /* Pods_Homework2_9_Animation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D94AF9CBA1309BDB2708A0 /* Pods_Homework2_9_Animation.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +27,7 @@
 		5D995E93285928CA00DE3A6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D995E96285928CA00DE3A6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D995E98285928CA00DE3A6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D995E9E285BB59A00DE3A6D /* Animation Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Animation Model.swift"; sourceTree = "<group>"; };
 		B4D94AF9CBA1309BDB2708A0 /* Pods_Homework2_9_Animation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework2_9_Animation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBF26ACE0E2CDA6ED1858E4 /* Pods-Homework2.9_Animation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework2.9_Animation.release.xcconfig"; path = "Target Support Files/Pods-Homework2.9_Animation/Pods-Homework2.9_Animation.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,6 +68,7 @@
 				5D995E8A285928C900DE3A6D /* AppDelegate.swift */,
 				5D995E8C285928C900DE3A6D /* SceneDelegate.swift */,
 				5D995E8E285928C900DE3A6D /* ViewController.swift */,
+				5D995E9E285BB59A00DE3A6D /* Animation Model.swift */,
 				5D995E90285928C900DE3A6D /* Main.storyboard */,
 				5D995E93285928CA00DE3A6D /* Assets.xcassets */,
 				5D995E95285928CA00DE3A6D /* LaunchScreen.storyboard */,
@@ -80,7 +83,6 @@
 				0C05E11DA79539EC601B2082 /* Pods-Homework2.9_Animation.debug.xcconfig */,
 				BFBF26ACE0E2CDA6ED1858E4 /* Pods-Homework2.9_Animation.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D995E8F285928C900DE3A6D /* ViewController.swift in Sources */,
+				5D995E9F285BB59A00DE3A6D /* Animation Model.swift in Sources */,
 				5D995E8B285928C900DE3A6D /* AppDelegate.swift in Sources */,
 				5D995E8D285928C900DE3A6D /* SceneDelegate.swift in Sources */,
 			);
