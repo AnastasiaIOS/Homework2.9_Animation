@@ -7,7 +7,7 @@
 
 import Spring
 
-class ViewController: UIViewController {
+class AnimationViewController: UIViewController {
     
     @IBOutlet var springAnimationView: SpringView!
     
