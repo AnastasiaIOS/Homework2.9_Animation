@@ -18,29 +18,31 @@ class ViewController: UIViewController {
     @IBOutlet var delayLabel: UILabel!
     
     private var animation = Animation.getParametrsOfAnimation()
-    var index = Animation.getParametrsOfAnimation().count
+    
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       // presetLabel.text = anima
-       
+        presetLabel.text = "preset: \(animation.preset)"
+        curveLabel.text = "curve: \(animation.curve)"
+        forceLabel.text = "force: \(animation.force)"
+        durationLabel.text = "duration: \(animation.duration)"
+        delayLabel.text = "delay: \(animation.delay)"
+        
     }
 
     @IBAction func springAnimationButton(_ sender: SpringButton) {
         
-        
-        
-        for _ in 0...index {
-            
-        springAnimationView.animation = animation[index].preset
-        springAnimationView.delay = animation[index].delay
-        springAnimationView.force = animation[index].force
-        springAnimationView.curve = animation[index].curve
-        springAnimationView.duration = animation[index].delay
+        springAnimationView.animation = animation.preset
+        springAnimationView.delay = animation.delay
+        springAnimationView.force = animation.force
+        springAnimationView.curve = animation.curve
+        springAnimationView.duration = animation.delay
         springAnimationView.animate()
-        }
+        
+        
+        
         
         }
     }
