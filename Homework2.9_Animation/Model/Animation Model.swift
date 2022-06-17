@@ -15,9 +15,8 @@ struct Animation {
 
 extension Animation {
     
-    static func getParametrsOfAnimation() -> [Animation] {
+    static func getParametrsOfAnimation() -> Animation {
         
-        var massiveOfParametrs: [Animation] = []
         
         let massiveOfPresets = groupMassive.presets
         let massiveOfCurves = groupMassive.curves
@@ -25,18 +24,11 @@ extension Animation {
         let massiveOfDurations = groupMassive.durations
         let massiveOfDelays = groupMassive.delays
         
-        
-        for _ in 0...50 {
-            let groupOfParametrs = Animation(preset: massiveOfPresets.randomElement() ?? "pop",
-                                             curve: massiveOfCurves.randomElement() ?? "easeIn",
-                                             force: massiveOfForces.randomElement() ?? 1.0,
-                                             duration: massiveOfDurations.randomElement() ?? 1.0,
-                                             delay: massiveOfDelays.randomElement() ?? 1.0)
-            
-            massiveOfParametrs.append(groupOfParametrs)
-        }
-        return massiveOfParametrs
-        
+        return   Animation(preset: massiveOfPresets.randomElement() ?? "pop",
+                  curve: massiveOfCurves.randomElement() ?? "easeIn",
+                  force: massiveOfForces.randomElement() ?? 1.0,
+                  duration: massiveOfDurations.randomElement() ?? 1.0,
+                  delay: massiveOfDelays.randomElement() ?? 1.0)
     }
     
 }
